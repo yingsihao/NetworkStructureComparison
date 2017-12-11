@@ -1,7 +1,7 @@
-n_input = 
-n_l1 =
-n_l2 = 
-n_l3 =
+n_input = 28 * 28
+n_l1 = 512
+n_l2 = 256
+n_l3 = 128
 
 class skip_network:
     def __init__(self, scope, lr):
